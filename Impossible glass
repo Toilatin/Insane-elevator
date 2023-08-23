@@ -1,0 +1,114 @@
+local kavoUi = loadstring(game:HttpGet("https://raw.githubusercontent.com/Toilatin/Insane-elevator/main/Insane2"))()
+local window = kavoUi.CreateLib("Impossible Glass Bridge Obby (Squid Game)","BloodTheme")
+
+---TeleportSpot
+
+local SafeSpot = Instance.new("Part", workspace)
+
+SafeSpot.Position = Vector3.new(1089.59,57.94,115.04)
+
+SafeSpot.Name = "Winner"
+
+SafeSpot.Size = Vector3.new(0,0.1,0)
+
+SafeSpot.Anchored = true
+
+SafeSpot.Transparency = .1
+
+--
+
+local SafeSpot = Instance.new("Part", workspace)
+
+SafeSpot.Position = Vector3.new(20.86,57.94,115.36)
+
+SafeSpot.Name = "Lobby2"
+
+SafeSpot.Size = Vector3.new(0,0.1,0)
+
+SafeSpot.Anchored = true
+
+SafeSpot.Transparency = 1
+
+--
+
+local SafeSpot = Instance.new("Part", workspace)
+
+SafeSpot.Position = Vector3.new(-26.47,97.63,116.9)
+
+SafeSpot.Name = "FreeVip"
+
+SafeSpot.Size = Vector3.new(0,0.1,0)
+
+SafeSpot.Anchored = true
+
+SafeSpot.Transparency = 1
+
+--
+
+local SafeSpot = Instance.new("Part", workspace)
+
+SafeSpot.Position = Vector3.new(1105.51,73.49,115.18)
+
+SafeSpot.Name = "Instant"
+
+SafeSpot.Size = Vector3.new(0,0.1,0)
+
+SafeSpot.Anchored = true
+
+SafeSpot.Transparency = 1
+
+---Tabs
+
+local Tab1 = window:NewTab("Main")
+local Tab1Section = Tab1:NewSection("Main")
+
+local Tab2 = window:NewTab("Credits")
+local Tab2Section = Tab2:NewSection("Credits")
+
+--Button
+
+Tab1Section:NewButton("Instant Win","Instant win, inf wins",function()
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Winner.CFrame * CFrame.new(0,10,0)
+end)
+
+Tab1Section:NewButton("Lobby","Teleport you to Lobby",function()
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Lobby2.CFrame * CFrame.new(0,10,0)
+end)
+
+Tab1Section:NewButton("Vip Room","Free Vip Room (no need 20k money)",function()
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.FreeVip.CFrame * CFrame.new(0,10,0)
+end)
+
+Tab1Section:NewButton("GodMode (Troll)","Insert part make you godmode",function()
+
+local SafeSpot = Instance.new("Part", workspace)
+
+SafeSpot.Position = Vector3.new(421.13,57,114.97)
+
+SafeSpot.Name = "God"
+
+SafeSpot.Size = Vector3.new(2048,1,23)
+
+SafeSpot.Anchored = true
+
+SafeSpot.Transparency = 1
+end)
+
+Tab1Section:NewButton("Fake Glass ESP","Become Leader when you can see fake glass!",function()
+
+for i,v in pairs(game:GetService("Workspace")["Glass Bridge"].GlassPane:GetDescendants()) do
+   if v:IsA("BasePart") and v.CanCollide == false then
+       v.CanCollide = true
+       v.Color = Color3.fromRGB(255, 0, 0)
+
+   end
+end
+end)
+
+local Tab2Section = Tab2:NewSection("---Owner Of Script---")
+
+local Tab2Section = Tab2:NewSection("---Tin---")
+
