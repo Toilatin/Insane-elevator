@@ -1,0 +1,105 @@
+local kavoUi = loadstring(game:HttpGet("https://raw.githubusercontent.com/Toilatin/KavoUI/main/KavoUi?token=GHSAT0AAAAAACGUT5VDUNKGBLPID7H6MBGMZHFZ6TA"))()
+local window = kavoUi.CreateLib("Insane Elevator","BloodTheme")
+
+--TeleportSpot
+
+local SafeSpot = Instance.new("Part", workspace)
+
+SafeSpot.Position = Vector3.new(-1860.61,-399.9,927.21)
+
+SafeSpot.Name = "Vip"
+
+SafeSpot.Size = Vector3.new(0,0.1,0)
+
+SafeSpot.Anchored = true
+
+SafeSpot.Transparency = 1
+
+--
+
+local SafeSpot = Instance.new("Part", workspace)
+
+SafeSpot.Position = Vector3.new(-1920.71,-399.9,929.66)
+
+SafeSpot.Name = "Laaabby"
+
+SafeSpot.Size = Vector3.new(0,0.1,0)
+
+SafeSpot.Anchored = true
+
+SafeSpot.Transparency = 1
+
+--
+
+local SafeSpot = Instance.new("Part", workspace)
+
+SafeSpot.Position = Vector3.new(-0.81,1,-7.31)
+
+SafeSpot.Name = "Game"
+
+SafeSpot.Size = Vector3.new(0,0.1,0)
+
+SafeSpot.Anchored = true
+
+SafeSpot.Transparency = 1
+
+--Tabs
+
+local Tab1 = window:NewTab("Main")
+local Tab1Section = Tab1:NewSection("Main")
+
+local Tab2 = window:NewTab("Misc")
+local Tab2Section = Tab2:NewSection("Misc")
+
+local Tab3 = window:NewTab("Credits")
+local Tab3Section = Tab3:NewSection("Credits")
+
+--Buttons/Section
+
+Tab1Section:NewButton("Free VIP","Free VIP Gamepass",function()
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Vip.CFrame * CFrame.new(0,5,0)
+end)
+
+Tab1Section:NewButton("Lobby","Teleport you to Lobby",function()
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Laaabby.CFrame * CFrame.new(0,10,0)
+end)
+
+Tab1Section:NewButton("Enter Game","Enter elevator",function()
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Game.CFrame * CFrame.new(0,5,0)
+end)
+
+Tab1Section:NewButton("FullBright","InfoHere",function()
+
+local Light = game:GetService("Lighting")
+ 
+function dofullbright()
+Light.Ambient = Color3.new(1, 1, 1)
+Light.ColorShift_Bottom = Color3.new(1, 1, 1)
+Light.ColorShift_Top = Color3.new(1, 1, 1)
+end
+ 
+dofullbright()
+ 
+Light.LightingChanged:Connect(dofullbright)
+end)
+
+Tab2Section:NewButton("Infinite Yield","hi",function()
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+Tab2Section:NewButton("Nameless Admin","InfoHere",function()
+
+-- Thanks to 0866 for making the whole ui work, this admin script was actually made in 2019 lol but was modified by qipu
+-- For the commands thanks to IY, Fates Admin, HomeBrew, CMD-X for some of the code and command ideas!
+-- For the people thanks to Digitality, i_db, rouxhaver, spec and the v3rmillion community, if you see your script in the source and want credits please dm qipu#9312
+-- ! Make sure to have an executor that supports firetouchinterest for the tool commands !
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/NamelessAdmin/main/Source"))();
+end)
+
+local Tab3Section = Tab3:NewSection("---Owner Of Script---")
+
+local Tab3Section = Tab3:NewSection("---Tin---")
