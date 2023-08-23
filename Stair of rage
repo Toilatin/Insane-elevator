@@ -1,0 +1,184 @@
+local kavoUi = loadstring(game:HttpGet("https://raw.githubusercontent.com/Toilatin/Insane-elevator/main/Insane2"))()
+local window = kavoUi.CreateLib("Stairs Of Rage","BloodTheme")
+
+--SafeSpot
+
+local SafeSpot = Instance.new("Part", workspace)
+
+SafeSpot.Position = Vector3.new(0,100000,0)
+
+SafeSpot.Name = "SecretPlace"
+
+SafeSpot.Size = Vector3.new(1000,1,1000)
+
+SafeSpot.Anchored = true
+
+SafeSpot.Transparency = .7
+
+--
+
+local SafeSpot = Instance.new("Part", workspace)
+
+SafeSpot.Position = Vector3.new(-34.23,522,-5,54)
+
+SafeSpot.Name = "Winner"
+
+SafeSpot.Size = Vector3.new(0,0.1,0)
+
+SafeSpot.Anchored = true
+
+SafeSpot.Transparency = .1
+
+--
+
+local SafeSpot = Instance.new("Part", workspace)
+
+SafeSpot.Position = Vector3.new(-86.64,523,-1.71)
+
+SafeSpot.Name = "WinnerPlace"
+
+SafeSpot.Size = Vector3.new(0,0.1,0)
+
+SafeSpot.Anchored = true
+
+SafeSpot.Transparency = 1
+
+--
+
+local SafeSpot = Instance.new("Part", workspace)
+
+SafeSpot.Position = Vector3.new(2.84,0.88,-26.13)
+
+SafeSpot.Name = "Lobby"
+
+SafeSpot.Size = Vector3.new(0,0.1,0)
+
+SafeSpot.Anchored = true
+
+SafeSpot.Transparency = 1
+
+
+
+--Tabs
+
+local Tab1 = window:NewTab("Main")
+local Tab1Section = Tab1:NewSection("Main")
+
+local Tab2 = window:NewTab("Misc")
+local Tab2Section = Tab2:NewSection("Misc")
+
+local Tab3 = window:NewTab("Credits")
+local Tab3Section = Tab3:NewSection("Credits")
+
+--Buttons
+
+Tab1Section:NewButton("Instant Win","Instant Win (OP)",function()
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Winner.CFrame * CFrame.new(0,20,0)
+end)
+
+Tab1Section:NewButton("Winner Place (Not give win)","Teleport you winner place without be on Winner Team",function()
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.WinnerPlace.CFrame * CFrame.new(0,10,0)
+end)
+
+Tab1Section:NewButton("Lobby","Teleport you to lobby",function()
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Lobby.CFrame * CFrame.new(0,10,0)
+end)
+
+Tab2Section:NewButton("Infinite Yield","Op FE Admin Commands",function()
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+Tab2Section:NewButton("Nameless Admin","[NEW] OP Admin Commands",function()
+
+-- Thanks to 0866 for making the whole ui work, this admin script was actually made in 2019 lol but was modified by qipu
+-- For the commands thanks to IY, Fates Admin, HomeBrew, CMD-X for some of the code and command ideas!
+-- For the people thanks to Digitality, i_db, rouxhaver, spec and the v3rmillion community, if you see your script in the source and want credits please dm qipu#9312
+-- ! Make sure to have an executor that supports firetouchinterest for the tool commands !
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/NamelessAdmin/main/Source"))();
+end)
+
+Tab2Section:NewButton("Mobile Tab Glitch","You can tab glitch on mobile",function()
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/creepstu/fuzzy-octo-giggle/main/Source'))()
+end)
+
+local Tab2Section = Tab2:NewSection("---Hitbox---")
+
+Tab2Section:NewButton("Hitbox 8","Hitbox",function()
+
+_G.HeadSize = 8
+_G.Disabled = true
+
+game:GetService('RunService').RenderStepped:connect(function()
+if _G.Disabled then
+for i,v in next, game:GetService('Players'):GetPlayers() do
+if v.Name ~= game:GetService('Players').LocalPlayer.Name then
+pcall(function()
+v.Character.HumanoidRootPart.Size = Vector3.new(_G.HeadSize,_G.HeadSize,_G.HeadSize)
+v.Character.HumanoidRootPart.Transparency = 0.9
+v.Character.HumanoidRootPart.BrickColor = BrickColor.new("White")
+v.Character.HumanoidRootPart.Material = "Neon"
+v.Character.HumanoidRootPart.CanCollide = false
+end)
+end
+end
+end
+end)
+end)
+
+Tab2Section:NewButton("Hitbox 12","InfoHere",function()
+
+_G.HeadSize = 12
+_G.Disabled = true
+
+game:GetService('RunService').RenderStepped:connect(function()
+if _G.Disabled then
+for i,v in next, game:GetService('Players'):GetPlayers() do
+if v.Name ~= game:GetService('Players').LocalPlayer.Name then
+pcall(function()
+v.Character.HumanoidRootPart.Size = Vector3.new(_G.HeadSize,_G.HeadSize,_G.HeadSize)
+v.Character.HumanoidRootPart.Transparency = 0.9
+v.Character.HumanoidRootPart.BrickColor = BrickColor.new("White")
+v.Character.HumanoidRootPart.Material = "Neon"
+v.Character.HumanoidRootPart.CanCollide = false
+end)
+end
+end
+end
+end)
+end)
+
+Tab2Section:NewButton("Remove Hitbox","Remove Hitbox",function()
+
+_G.HeadSize = 2
+_G.Disabled = true
+
+game:GetService('RunService').RenderStepped:connect(function()
+if _G.Disabled then
+for i,v in next, game:GetService('Players'):GetPlayers() do
+if v.Name ~= game:GetService('Players').LocalPlayer.Name then
+pcall(function()
+v.Character.HumanoidRootPart.Size = Vector3.new(_G.HeadSize,_G.HeadSize,_G.HeadSize)
+v.Character.HumanoidRootPart.Transparency = 0.9
+v.Character.HumanoidRootPart.BrickColor = BrickColor.new("White")
+v.Character.HumanoidRootPart.Material = "Neon"
+v.Character.HumanoidRootPart.CanCollide = false
+end)
+end
+end
+end
+end)
+end)
+
+Tab1Section:NewButton("Secret Place","Teleport you to secret place",function()
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.SecretPlace.CFrame * CFrame.new(0,20,0)
+end)
+
+local Tab3Section = Tab3:NewSection("----Owner----")
+
+local Tab3Section = Tab3:NewSection("---Tin---")
