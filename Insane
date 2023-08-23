@@ -1,4 +1,4 @@
-local kavoUi = loadstring(game:HttpGet("https://raw.githubusercontent.com/Toilatin/KavoUI/main/KavoUi?token=GHSAT0AAAAAACGUT5VDUNKGBLPID7H6MBGMZHFZ6TA"))()
+local kavoUi = loadstring(game:HttpGet("https://raw.githubusercontent.com/Toilatin/KavoUI/main/KavoUi?token=GHSAT0AAAAAACGUT5VDNZBA6QHYHJHWI3N2ZHF466Q"))()
 local window = kavoUi.CreateLib("Insane Elevator","BloodTheme")
 
 --TeleportSpot
