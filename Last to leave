@@ -1,0 +1,54 @@
+local kavoUi = loadstring(game:HttpGet("https://raw.githubusercontent.com/Toilatin/Insane-elevator/main/Insane2", true))()
+local window = kavoUi.CreateLib("Last To Leave","BloodTheme")
+
+--TeleportSpot
+
+local SafeSpot = Instance.new("Part", workspace)
+
+SafeSpot.Position = Vector3.new(0.34,100000,3.73)
+
+SafeSpot.Name = "Win"
+
+SafeSpot.Size = Vector3.new(20,1,20)
+
+SafeSpot.Anchored = true
+
+SafeSpot.Transparency = .7
+
+--
+
+local SafeSpot = Instance.new("Part", workspace)
+
+SafeSpot.Position = Vector3.new(0.6,4.27,4.9)
+
+SafeSpot.Name = "Arena"
+
+SafeSpot.Size = Vector3.new(0,0.1,0)
+
+SafeSpot.Anchored = true
+
+SafeSpot.Transparency = 1
+
+--Tabs
+
+local Tab1 = window:NewTab("Main")
+local Tab1Section = Tab1:NewSection("Main")
+
+local Tab2 = window:NewTab("Credits")
+local Tab2Section = Tab2:NewSection("Credits")
+
+--Buttons
+
+Tab1Section:NewButton("SafeSpot | Auto Win","Teleport you to SafeSpot",function()
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Win.CFrame * CFrame.new(0,10,0)
+end)
+
+Tab1Section:NewButton("Arena","Teleport you to Arena",function()
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Arena.CFrame * CFrame.new(0,10,0)
+end)
+
+local Tab2Section = Tab2:NewSection("---Owner Of Script---")
+
+local Tab2Section = Tab2:NewSection("---Tin---")
