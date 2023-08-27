@@ -1,0 +1,178 @@
+local kavoUi = loadstring(game:HttpGet("https://raw.githubusercontent.com/Toilatin/Insane-elevator/main/Insane2"))()
+local window = kavoUi.CreateLib("The Obby Elevator","BloodTheme")
+
+--GlitchSpot
+
+local SafeSpot = Instance.new("Part", workspace)
+
+SafeSpot.Position = Vector3.new(10.19,470,-9.2)
+
+SafeSpot.Name = "Glitch1"
+
+SafeSpot.Size = Vector3.new(1,0.5,2)
+
+SafeSpot.Anchored = true
+
+SafeSpot.Transparency = .7
+
+--
+
+local SafeSpot = Instance.new("Part", workspace)
+
+SafeSpot.Position = Vector3.new(10.19,471,-9.2)
+
+SafeSpot.Name = "Glitch2"
+
+SafeSpot.Size = Vector3.new(1,0.5,2)
+
+SafeSpot.Anchored = true
+
+SafeSpot.Transparency = .7
+
+--
+
+local SafeSpot = Instance.new("Part", workspace)
+
+SafeSpot.Position = Vector3.new(10.19,472,-9.2)
+
+SafeSpot.Name = "Glitch3"
+
+SafeSpot.Size = Vector3.new(1,0.5,2)
+
+SafeSpot.Anchored = true
+
+SafeSpot.Transparency = .7
+
+--TeleportSpot
+
+local SafeSpot = Instance.new("Part", workspace)
+
+SafeSpot.Position = Vector3.new(-8050.8,470.32,1.76)
+
+SafeSpot.Name = "Loaby"
+
+SafeSpot.Size = Vector3.new(0,0.1,0)
+
+SafeSpot.Anchored = true
+
+SafeSpot.Transparency = 1
+
+---
+
+local SafeSpot = Instance.new("Part", workspace)
+
+SafeSpot.Position = Vector3.new(-8055.45,469.9,79.96)
+
+SafeSpot.Name = "Obbyy"
+
+SafeSpot.Size = Vector3.new(0,0.1,0)
+
+SafeSpot.Anchored = true
+
+SafeSpot.Transparency = 1
+
+---
+
+local SafeSpot = Instance.new("Part", workspace)
+
+SafeSpot.Position = Vector3.new(-8060.45,488.9,79.96)
+
+SafeSpot.Name = "WinOb"
+
+SafeSpot.Size = Vector3.new(0,0.1,0)
+
+SafeSpot.Anchored = true
+
+SafeSpot.Transparency = 1
+
+--
+
+local SafeSpot = Instance.new("Part", workspace)
+
+SafeSpot.Position = Vector3.new(-4.49,464.71,0.02)
+
+SafeSpot.Name = "Elevator"
+
+SafeSpot.Size = Vector3.new(0,0.1,0)
+
+SafeSpot.Anchored = true
+
+SafeSpot.Transparency = 1
+
+--Tabs
+
+local Tab1 = window:NewTab("Main")
+local Tab1Section = Tab1:NewSection("Main")
+
+local Tab2 = window:NewTab("Credits")
+local Tab2Section = Tab2:NewSection("Credits")
+
+--Buttons
+
+Tab1Section:NewButton("Infinity Coins (OP)","Inf coins (25+ coins per click)",function()
+
+game:GetService("ReplicatedStorage"):WaitForChild("EXP"):WaitForChild("CoinX25"):FireServer()
+end)
+
+Tab1Section:NewButton("Enter Elevator","Enter Elevator",function()
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Elevator.CFrame * CFrame.new(0,5,0)
+end)
+
+Tab1Section:NewButton("Lobby","Teleport to Lobby",function()
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Loaby.CFrame * CFrame.new(0,5,0)
+end)
+
+Tab1Section:NewButton("Practise Obby","Teleport to Practise Obby",function()
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.Obbyy.CFrame * CFrame.new(0,5,0)
+end)
+
+local Tab1Section = Tab1:NewSection("Instant Win Practise Obby")
+
+Tab1Section:NewButton("Instant Win Easy Obby","Instant Win",function()
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.WinOb.CFrame * CFrame.new(0,5,-23)
+end)
+
+Tab1Section:NewButton("Instant Win Medium Obby","Instant Win",function()
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.WinOb.CFrame * CFrame.new(0,5,0)
+end)
+
+Tab1Section:NewButton("Instant Win Hard Obby","Instant Win",function()
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.WinOb.CFrame * CFrame.new(0,5,23)
+end)
+
+local Tab1Section = Tab1:NewSection("Misc")
+
+Tab1Section:NewButton("Infinite Yield","Infinite Yield Admin Commands",function()
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+Tab1Section:NewButton("Nameless Admin","Nameless Admin",function()
+
+-- Thanks to 0866 for making the whole ui work, this admin script was actually made in 2019 lol but was modified by qipu
+-- For the commands thanks to IY, Fates Admin, HomeBrew, CMD-X for some of the code and command ideas!
+-- For the people thanks to Digitality, i_db, rouxhaver, spec and the v3rmillion community, if you see your script in the source and want credits please dm qipu#9312
+-- ! Make sure to have an executor that supports firetouchinterest for the tool commands !
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/NamelessAdmin/main/Source"))();
+end)
+
+Tab1Section:NewButton("Mobile Tab Glitch","Tab glitch on Mobile",function()
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/creepstu/fuzzy-octo-giggle/main/Source'))()
+end)
+
+Tab1Section:NewButton("Fe Fly Gui V3","Fly gui v3",function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt"))()
+end)
+
+local Tab2Section = Tab2:NewSection("---Owner Of Script---")
+
+local Tab2Section = Tab2:NewSection("---Tin---")
+
