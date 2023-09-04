@@ -138,3 +138,8 @@ end)
 local Tab1Section = Tab1:NewSection("---AutoExecutor---")
 
 local Tab1Section = Tab1:NewSection("-AntiAfk-")
+
+Tab2Section:NewButton("Reaper Hub (Key, 4 linkvertise :/)","OK",function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AyoReaper/Reaper-Hub/main/loader.lua"))()
+end)
