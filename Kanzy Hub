@@ -1,0 +1,300 @@
+local kavoUi = loadstring(game:HttpGet("https://raw.githubusercontent.com/Toilatin/Insane-elevator/main/Insane2", true))()
+local window = kavoUi.CreateLib("Kanzy Hub","BloodTheme")
+
+---Hi
+
+local Tab1 = window:NewTab("Main")
+local Tab1Section = Tab1:NewSection("Main")
+
+local Tab2 = window:NewTab("Games Hub")
+local Tab2Section = Tab2:NewSection("Games Hub [ OP ]")
+
+local Tab3 = window:NewTab("Player")
+local Tab3Section = Tab3:NewSection("Player")
+
+local Tab4 = window:NewTab("Credits")
+local Tab4Section = Tab4:NewSection("Credits")
+
+--
+
+Tab1Section:NewButton("Infinite Yield","OP Admin Commands [FE]",function()
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+
+end)
+
+Tab1Section:NewButton("Dex (WORKING)","Dex Mobile",function()
+
+getgenv().Key = "Bash"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Hosvile/Refinement/main/MC%3AIY%20Dex",true))()
+end)
+
+Tab1Section:NewButton("Anti Ragdoll","OP Anti Ragdoll Hack",function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Toilatin/ServerHop/main/Anti%20rag?token=GHSAT0AAAAAACGUT5VDODZE4UNAJXNRL3WSZHF2T7A"))()
+
+end) 
+
+Tab1Section:NewButton("Chat Hax","FAKE CHAT LOL",function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Toilatin/ServerHop/main/Chat%20hax?token=GHSAT0AAAAAACGUT5VCEU2HYG426XX22RTQZHF2SYQ", true))()
+
+end) 
+
+Tab1Section:NewButton("Fake Lag","Make People Think You Very Laggy Lol",function()
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/Fe%20Fake%20Lag%20Obfuscator'))()
+
+end) 
+
+Tab1Section:NewButton("Anti Fall (Execute again if you die)","If you die need to execute Anti Fall script again",function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/zephyr10101/AntiFall/main/Script"))()
+end)
+
+Tab1Section:NewButton("Reset Gui (Mobile)","Instant reset in Mobile!",function()
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local TextButton = Instance.new("TextButton")
+local TextButton1 = Instance.new("TextButton")
+
+ScreenGui.Parent = game.CoreGui
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.new(0,0,0)
+Frame.BorderColor3 = Color3.new(1,1,1)
+Frame.BorderSizePixel = 3
+Frame.Position = UDim2.new(0.293040276, 0, 0.491666675, 0)
+Frame.Size = UDim2.new(0.2,0,0.2)
+Frame.Active = true
+Frame.Draggable = true
+
+TextButton1.Parent = Frame
+TextButton1.BackgroundColor3 = Color3.new(0,0,0)
+TextButton1.BackgroundTransparency = 0
+TextButton1.BorderSizePixel = 3
+TextButton1.BorderColor3 = Color3.new(1,1,1)
+TextButton1.Position = UDim2.new(0.05,0,0.3)
+TextButton1.TextColor3 = Color3.new(1,1,1)
+TextButton1.Size = UDim2.new(0.50,70,0,35.15)
+TextButton1.Font = Enum.Font.SourceSansLight
+TextButton1.FontSize = Enum.FontSize.Size14
+TextButton1.Text = "Reset"
+TextButton1.TextScaled = true
+TextButton1.TextSize = 8
+TextButton1.TextWrapped = true
+
+TextButton1.MouseButton1Click:connect(function()
+game.Players.LocalPlayer.Character.Humanoid.Health = 0
+end)
+end)
+
+Tab1Section:NewButton("WalkSpeed Control","Control Your Speed! :)",function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Toilatin/ServerHop/main/Speed%20control?token=GHSAT0AAAAAACGUT5VCHLX4Y2C7FWQUVW24ZHF2QZA"))()
+
+end) 
+
+Tab1Section:NewButton("Shiftlock Script","Enable Shiftlock Work For All Games",function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Toilatin/ServerHop/main/Shiftlock?token=GHSAT0AAAAAACGUT5VCKOZNSEQDQDLAO7AWZHF2PDA", true))()
+
+end) 
+
+Tab1Section:NewButton("Anti Chat Logger","Anti chat log, you cant get ban when get reported!",function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Toilatin/Insane-elevator/main/Anti%20chat%20log", true))()
+end)
+
+Tab1Section:NewButton("Universal View Games Place","Universal view games place, can see server test!",function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Toilatin/Insane-elevator/main/View%20game%20places"))()
+end)
+
+Tab1Section:NewButton("Join Lowest Ping Server","Teleport you to lowest ping server!",function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/CF-Trail/random/main/loadstrings/lowestPing.lua", true))()
+end)
+
+Tab1Section:NewButton("Auto Report Player","Auto report when player say bad words",function()
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/CF-Trail/Auto-Report/main/revamp.lua'))()
+end)
+
+Tab1Section:NewButton("RedGhost Hub","RIP GhostPlayer Channel :(",function()
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/RedGhost%20Obfuscator'))()
+
+end) 
+
+Tab1Section:NewButton("KeyBoard","Spawn Small Keyboard",function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
+
+end) 
+
+Tab1Section:NewButton("Fe Fly [ OP ]","Allowed You To Fly Everywhere!",function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt"))()
+
+end) 
+
+local Tab1Section = Tab1:NewSection("Other Stuff [ NICE ]")
+
+Tab1Section:NewButton("Destroy NameTag (NOT FE)","Destroy Your NameTag",function()
+
+game.Players.LocalPlayer.Character.Head["Nametag"]:Destroy()
+
+end)
+
+Tab1Section:NewButton("Rejoin Server","Rejoin In Same Server!",function()
+
+local ts = game:GetService("TeleportService")
+
+local p = game:GetService("Players").LocalPlayer
+
+ts:Teleport(game.PlaceId, p)
+
+end) 
+
+Tab1Section:NewButton("ServerHop","This Script Allowed You To Join Low Server",function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Toilatin/ServerHop/main/Serverhop?token=GHSAT0AAAAAACGUT5VD4TY2XAYDMZYWLOV6ZHF2KXQ"))()
+
+end) 
+
+Tab2Section:NewButton("+1 TNT Every Second","NameHere",function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraIsMe2/ToraIsMe2/main/0%2B1tnt", true))()
+
+end) 
+
+Tab2Section:NewButton("Impossible Glass Bridge Obby! (Squid Game)","Click More To Load All Correct Glass",function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Toilatin/Insane-elevator/main/Impossible%20glass", true))()
+
+end) 
+
+Tab2Section:NewButton("Slap Battles [ OP ]","OP Slap Battles Script By Tin",function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Toilatin/Insane-elevator/main/Slap%20battles"))()
+
+end) 
+
+Tab2Section:NewButton("Last To Leave","Auto Win",function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Toilatin/Insane-elevator/main/Last%20to%20leave", true))()
+
+end) 
+
+Tab2Section:NewButton("Funky Friday Auto Play","OP AUTO PLAY [ Only For Fluxus ]",function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ShowerHead-FluxTeam/scripts/main/funky-friday-autoplay"))()
+
+end) 
+
+Tab2Section:NewButton("Lucky Block","Get all items for FREE!!!",function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Toilatin/Kanzy-Hub-By-Tin/main/Lucky%20block"))()
+
+end) 
+
+Tab2Section:NewButton("Fly Race","Best Fly Race Script",function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraIsMe2/ToraIsMe2/main/0flyrace", true))()
+
+end) 
+
+Tab2Section:NewButton("Build A Boat For Treasure","Auto Farm, Infinity Golds",function()
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/BoaHacker/ROBLOX/main/cheat', true))()
+
+end) 
+
+Tab2Section:NewButton("Color Block","Auto Win, Infinity Wins!",function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Toilatin/Insane-elevator/main/Color%20block", true))()
+
+end) 
+
+Tab2Section:NewButton("Longest Answer Win","Auto Win, Auto Answer",function()
+
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/UnknownStraz/Longest-Answer-Wins/main/Script"), true))()
+
+end) 
+
+Tab2Section:NewButton("Squid Game","Auto Win, God Mode, Kill all, Kill Player & More!",function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LilFrench21/Hecta/main/Script/Squid%20Game"))()
+
+end) 
+
+Tab3Section:NewButton("Player WalkSpeed 100","WalkSpeed 100",function()
+
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 100
+
+end) 
+
+Tab3Section:NewButton("Player WalkSpeed 50","WalkSpeed 50",function()
+
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 50
+
+end) 
+
+Tab3Section:NewButton("Super Jump","JumpPower 150",function()
+
+game.Players.LocalPlayer.Character.Humanoid.JumpPower = 150
+
+end) 
+
+Tab3Section:NewButton("Mega Jump","JumpPower 100",function()
+
+game.Players.LocalPlayer.Character.Humanoid.JumpPower = 100
+
+end) 
+
+Tab3Section:NewButton("Normal Jump","JumpPower 50",function()
+
+game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
+
+end) 
+
+local Tab4Section = Tab4:NewSection("---Owner Kanzy Hub---")
+
+
+local Tab4Section = Tab4:NewSection("Tin")
+
+
+local Tab4Section = Tab4:NewSection("---Devolopers---")
+
+
+local Tab4Section = Tab4:NewSection("GasMaskSoldier")
+
+local Tab3Section = Tab3:NewSection("Reset Character")
+
+Tab3Section:NewButton("Reset","Reset Your Character",function()
+
+game.Players.LocalPlayer.Character.Humanoid.Health = 0
+
+end) 
+
+Tab2Section:NewButton("Stairs Of Rage","Stairs Of Rage, Instant Win, Teleport,...",function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Toilatin/Insane-elevator/main/Stair%20of%20rage", true))()
+end)
+
+Tab2Section:NewButton("Insane Elevator","Free VIP Gamepass, Teleport",function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Toilatin/Insane-elevator/main/Insane%20elevator", true))()
+end)
+
+Tab2Section:NewButton("Sword Warrior Endless SafeSpot","Teleport to SafeSpot In Endless",function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Toilatin/Insane-elevator/main/SW%20ENDLESS", true))()
+end)
+
+Tab2Section:NewButton("The Obby Elevator","Inf coins, teleport",function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Toilatin/Insane-elevator/main/KanY", true))()
+end)
