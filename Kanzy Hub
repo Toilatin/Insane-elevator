@@ -289,7 +289,7 @@ Tab2Section:NewButton("Insane Elevator","Free VIP Gamepass, Teleport",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Toilatin/Insane-elevator/main/Insane%20elevator", true))()
 end)
 
-Tab2Section:NewButton("Sword Warrior Endless SafeSpot","Teleport to SafeSpot In Endless",function()
+Tab2Section:NewButton("Sword Warrior/Endless","Teleport to SafeSpot In Endless",function()
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Toilatin/Insane-elevator/main/SW%20ENDLESS", true))()
 end)
@@ -298,3 +298,4 @@ Tab2Section:NewButton("The Obby Elevator","Inf coins, teleport",function()
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Toilatin/Insane-elevator/main/KanY", true))()
 end)
+
