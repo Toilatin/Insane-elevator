@@ -23,4 +23,5 @@ end)
 
 local Tab2Section = Tab2:NewSection("---Owner---")
 
-local Tab2Section = Tab2:NewSection("---Tin---").
+local Tab2Section = Tab2:NewSection("---Tin---")
+
