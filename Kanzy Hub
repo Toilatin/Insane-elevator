@@ -47,6 +47,11 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/
 
 end) 
 
+Tab1Section:NewButton("Noclip Gui (When turn off, jump for it to work)","Noclip EVERY Games",function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Toilatin/Insane-elevator/main/Noclip%20gui", true))()
+end)
+
 Tab1Section:NewButton("Anti Fall (Execute again if you die)","If you die need to execute Anti Fall script again",function()
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/zephyr10101/AntiFall/main/Script"))()
