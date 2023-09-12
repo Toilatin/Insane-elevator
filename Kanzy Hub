@@ -304,3 +304,7 @@ Tab2Section:NewButton("The Obby Elevator","Inf coins, teleport",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Toilatin/Insane-elevator/main/KanY", true))()
 end)
 
+Tab2Section:NewButton("Blade Ball","Blade Ball Hub By Tin",function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Toilatin/Insane-elevator/main/Blade%20Ball", true))()
+end)
