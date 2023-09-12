@@ -1,0 +1,26 @@
+local kavoUi = loadstring(game:HttpGet("https://raw.githubusercontent.com/Toilatin/Insane-elevator/main/Insane2"))()
+local window = kavoUi.CreateLib("Blade Ball","BloodTheme")
+
+--Tab
+
+local Tab1 = window:NewTab("Main")
+local Tab1Section = Tab1:NewSection("---Main---")
+
+local Tab2 = window:NewTab("Credits")
+local Tab2Section = Tab2:NewSection("Credits")
+
+--Button
+
+Tab1Section:NewButton("Auto Parry/Block","Auto Parry/Block",function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/1f0yt/community/main/AutoBlock"))()
+end)
+
+Tab1Section:NewButton("Blade Ball Hub (Key: THXFORJOIN)","Key: THXFORJOIN",function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ImNotFatBitch/LoaderScripts/main/LoaderScripts"))()
+end)
+
+local Tab2Section = Tab2:NewSection("---Owner---")
+
+local Tab2Section = Tab2:NewSection("---Tin---").
