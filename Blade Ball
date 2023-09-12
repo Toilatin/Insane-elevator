@@ -21,6 +21,11 @@ Tab1Section:NewButton("Blade Ball Hub (Key: THXFORJOIN)","Key: THXFORJOIN",funct
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ImNotFatBitch/LoaderScripts/main/LoaderScripts"))()
 end)
 
+Tab1Section:NewButton("Keyboard","InfoHere",function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
+end)
+
 local Tab2Section = Tab2:NewSection("---Owner---")
 
 local Tab2Section = Tab2:NewSection("---Tin---")
