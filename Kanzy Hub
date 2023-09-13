@@ -31,13 +31,13 @@ end)
 
 Tab1Section:NewButton("Anti Ragdoll","OP Anti Ragdoll Hack",function()
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Toilatin/ServerHop/main/Anti%20rag?token=GHSAT0AAAAAACGUT5VDODZE4UNAJXNRL3WSZHF2T7A"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Toilatin/Insane-elevator/main/Anti%20ragdoll"))()
 
 end) 
 
 Tab1Section:NewButton("Chat Hax","FAKE CHAT LOL",function()
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Toilatin/ServerHop/main/Chat%20hax?token=GHSAT0AAAAAACGUT5VCEU2HYG426XX22RTQZHF2SYQ", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Toilatin/Insane-elevator/main/Chat%20hack", true))()
 
 end) 
 
@@ -97,13 +97,13 @@ end)
 
 Tab1Section:NewButton("WalkSpeed Control","Control Your Speed! :)",function()
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Toilatin/ServerHop/main/Speed%20control?token=GHSAT0AAAAAACGUT5VCHLX4Y2C7FWQUVW24ZHF2QZA"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Toilatin/Insane-elevator/main/Speed%20control"))()
 
 end) 
 
 Tab1Section:NewButton("Shiftlock Script","Enable Shiftlock Work For All Games",function()
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Toilatin/ServerHop/main/Shiftlock?token=GHSAT0AAAAAACGUT5VCKOZNSEQDQDLAO7AWZHF2PDA", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Toilatin/Insane-elevator/main/Shiftlock%20mobile", true))()
 
 end) 
 
