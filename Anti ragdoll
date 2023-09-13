@@ -1,0 +1,20 @@
+game.Players.LocalPlayer.CharacterAdded:Connect(function(character)
+game.Players.LocalPlayer.Character.DescendantAdded:Connect(function(v) 
+        if v:IsA("BodyVelocity") or v:IsA("BodyGyro") or v:IsA("RocketPropulsion") or v:IsA("BodyThrust") or v:IsA("BodyAngularVelocity") or v:IsA("AngularVelocity") or v:IsA("BodyForce") or v:IsA("VectorForce") or v:IsA("LineForce") then
+game.Players.LocalPlayer.Character.HumanoidRootPart.Anchored = true
+task.wait()
+            v:Destroy()
+task.wait(.5)
+game.Players.LocalPlayer.Character.HumanoidRootPart.Anchored = false
+        end
+end)
+end)
+game.Players.LocalPlayer.Character.DescendantAdded:Connect(function(v) 
+        if v:IsA("BodyVelocity") or v:IsA("BodyGyro") or v:IsA("RocketPropulsion") or v:IsA("BodyThrust") or v:IsA("BodyAngularVelocity") or v:IsA("AngularVelocity") or v:IsA("BodyForce") or v:IsA("VectorForce") or v:IsA("LineForce") then
+game.Players.LocalPlayer.Character.HumanoidRootPart.Anchored = true
+task.wait()
+            v:Destroy()
+task.wait(.5)
+game.Players.LocalPlayer.Character.HumanoidRootPart.Anchored = false
+        end
+end)
