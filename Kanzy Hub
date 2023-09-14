@@ -23,6 +23,16 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/
 
 end)
 
+Tab1Section:NewButton("Mobile Tab Glitch","You can now Tab Glitch on Mobile!",function()
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/creepstu/fuzzy-octo-giggle/main/Source'))()
+end)
+
+Tab1Section:NewButton("Fling Gui","Fling Fling",function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/0Ben1/fe./main/Fling%20GUI"))()
+end)
+
 Tab1Section:NewButton("Dex (WORKING)","Dex Mobile",function()
 
 getgenv().Key = "Bash"
@@ -40,6 +50,16 @@ Tab1Section:NewButton("Chat Hax","FAKE CHAT LOL",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Toilatin/Insane-elevator/main/Chat%20hack", true))()
 
 end) 
+
+Tab1Section:NewButton("Perm Shiftlock Mobile Version","Perm Shiftlock in Mobile",function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Toilatin/Insane-elevator/main/Perm%20shiftlock%20Mobile"))()
+end)
+
+Tab1Section:NewButton("Perm Shiftlock Table Version","Work in Mobile",function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Toilatin/Insane-elevator/main/Perm%20Shiftlock%20table"))()
+end)
 
 Tab1Section:NewButton("Fake Lag","Make People Think You Very Laggy Lol",function()
 
