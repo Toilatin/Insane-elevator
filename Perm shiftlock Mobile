@@ -1,11 +1,14 @@
-local NotificationHolder = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Module.Lua"))()
-local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Client.Lua"))()
+local AkaliNotif = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/Dynissimo/main/Scripts/AkaliNotif.lua"))();
+local Notify = AkaliNotif.Notify;
+Notify({
+Description = "Enjoy! :)";
+Title = "Perm Shiftlock Mobile Version";
+Duration = 4;
+});
 
-wait(0.1)
-Notification:Notify(
-    {Title = "Perm Shiftlock Mobile Version", Description = "Perm Shiftlock"},
-    {OutlineColor = Color3.fromRGB(80, 80, 80),Time = 3, Type = "default"}
-) 
+if game.CoreGui:FindFirstChild("ScreenGui") then
+    game.CoreGui.ScreenGui:Destroy()
+end
 
 
 
