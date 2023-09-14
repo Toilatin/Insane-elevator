@@ -1,0 +1,12 @@
+local NotificationHolder = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Module.Lua"))()
+local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Client.Lua"))()
+
+wait(1)
+Notification:Notify(
+    {Title = "Perm Shiftlock Table Version", Description = "Perm Shiftlock"},
+    {OutlineColor = Color3.fromRGB(80, 80, 80),Time = 3, Type = "default"}
+) 
+
+
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Unknownproootest/Permanent-Shift-Lock-Beta/alt/PermShiftlockV2-alt'))()
