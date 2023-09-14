@@ -1,3 +1,21 @@
+--Notify
+
+local AkaliNotif = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/Dynissimo/main/Scripts/AkaliNotif.lua"))();
+local Notify = AkaliNotif.Notify;
+Notify({
+Description = "Made By Tin";
+Title = "Kanzy Hub";
+Duration = 4;
+});
+
+if game.CoreGui:FindFirstChild("ScreenGui") then
+    game.CoreGui.ScreenGui:Destroy()
+end
+
+wait(0.5)
+
+---Kanzy Hub
+
 local kavoUi = loadstring(game:HttpGet("https://raw.githubusercontent.com/Toilatin/Insane-elevator/main/Insane2", true))()
 local window = kavoUi.CreateLib("Kanzy Hub","BloodTheme")
 
