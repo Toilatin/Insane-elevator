@@ -1,5 +1,5 @@
 local kavoUi = loadstring(game:HttpGet("https://raw.githubusercontent.com/Toilatin/Insane-elevator/main/Insane2"))()
-local window = kavoUi.CreateLib("Sword Warrior Endless Safe Mode","BloodTheme")
+local window = kavoUi.CreateLib("Sword Warrior Endless Safe Mode [UPDATE]","BloodTheme")
 
 ---Hi
 
@@ -55,7 +55,7 @@ SafeSpot.Transparency = 1
 
 local SafeSpot = Instance.new("Part", workspace)
 
-SafeSpot.Position = Vector3.new(2332.28,42.31,-365.24)
+SafeSpot.Position = Vector3.new(4764.1,42.31,-2257.39)
 
 SafeSpot.Name = "EndlessArea"
 
@@ -71,7 +71,7 @@ Tab1Section:NewButton("Insert SafeSpot","Place SafeSpot",function()
 
 local SafeSpot = Instance.new("Part", workspace)
 
-SafeSpot.Position = Vector3.new(2334.61,39,-360.65)
+SafeSpot.Position = Vector3.new(4761.73,41,-2256.59)
 
 SafeSpot.Name = "Safe"
 
