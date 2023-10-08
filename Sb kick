@@ -50,12 +50,12 @@ TextButton.TextSize = 16.000
 TextButton.MouseButton1Down:connect(function()
 --script here
 
-game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-542.23,323.92,16.93)
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-787.94,323.92,17.91)
 wait(0.001)
 
 local args = {
     [1] = game:GetService("Players").LocalPlayer.Character.Recall,
-    [2] = Vector3.new(2.0009660720825195, -5.173244476318359, -69.03010559082031)
+    [2] = Vector3.new(-787.94,323.92,17.91)
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("Recall"):InvokeServer(unpack(args))
