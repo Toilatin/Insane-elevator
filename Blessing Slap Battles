@@ -1,0 +1,8 @@
+while _G.Blessing == true do
+local args = {
+    [1] = game:GetService("Players"):WaitForChild(_G.PlayerToBless)
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("GeneralAbility"):FireServer(unpack(args))
+wait(_G.BlessingCD)
+end
