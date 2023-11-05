@@ -139,9 +139,9 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Toilatin/Insane-eleva
 
 end) 
 
-Tab1Section:NewButton("Shiftlock Script","Enable Shiftlock Work For All Games",function()
+Tab1Section:NewButton("Position Finder","Position Finder",function()
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Toilatin/Insane-elevator/main/Shiftlock%20mobile", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Toilatin/Insane-elevator/main/Position%20Finder", true))()
 
 end) 
 
@@ -347,3 +347,7 @@ Tab2Section:NewButton("Blade Ball","Blade Ball Hub By Tin",function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Toilatin/Insane-elevator/main/Blade%20Ball", true))()
 end)
 
+Tab2Section:NewButton("Slap Battles Kick Gui","Slap Battles Kick Gui",function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Toilatin/Insane-elevator/main/Kick%20gui%20Slap%20battles", true))()
+end)
