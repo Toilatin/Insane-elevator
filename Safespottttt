@@ -1,0 +1,11 @@
+local SafeSpot = Instance.new("Part", workspace)
+
+SafeSpot.Position = Vector3.new(-700,-50000,17)
+
+SafeSpot.Name = "Spot"
+
+SafeSpot.Size = Vector3.new(2500,1,2500)
+
+SafeSpot.Anchored = true
+
+SafeSpot.Transparency = .7
